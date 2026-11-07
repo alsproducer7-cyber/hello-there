@@ -1,24 +1,22 @@
-# Hello There
+# Mesa Express
 
-oi
+Painel responsivo de demonstração para operação de delivery, construído com React, TypeScript, TanStack Start e Tailwind CSS.
 
-This project was built with [Lovable](https://lovable.dev).
+## Funcionalidades do protótipo
+- Cardápio por categorias, pesquisa e sacola.
+- Checkout com dados do cliente, endereço, referência, forma de pagamento, troco e atendente.
+- Painel de pedidos com atualização de status.
+- Caixa com faturamento de pedidos entregues, ticket médio e totais por forma de pagamento.
+- Configuração de taxa de entrega, preços e disponibilidade dos produtos.
+- Persistência local no navegador via `localStorage`.
 
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/19c5f408-5026-40d2-9f4c-3e2e89091464).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+## Executar localmente
+```bash
+npm install
 npm run dev
 ```
+
+## Importante antes de usar comercialmente
+Esta versão é um **protótipo frontend**. Os dados ficam no navegador em que foram cadastrados. Ainda não há banco de dados compartilhado, login/perfis de equipe, sincronização entre dispositivos, integração real com Pix/cartões, notificações, geolocalização ou rastreamento GPS. Para produção, implemente backend/API, banco de dados, autenticação, proteção de dados pessoais e integração com um provedor de pagamentos e mapas.
+
+Os preços, produtos e atendentes exibidos são exemplos e devem ser ajustados nas configurações.
